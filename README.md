@@ -1,7 +1,4 @@
-# AP Computer Science Principles
+# ap-csp-python
+Wow! its a Codespace!
 
-Azizur Bhuiyan
-Language: Python 3.14.15
-Start/End date* September 10, 2026 - TBD  
-AP CSP exam: May 14, 2027 at 8:00 AM
----
+AP Computer Science Principles /// Azizur Bhuiyan /// Start: 09/10/26 End: ? /// AP CSP Exam: 05/14/27 8AM
