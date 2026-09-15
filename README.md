@@ -1,4 +1,9 @@
-# ap-csp-python
-Wow! its a Codespace!
+# AP Computer Science Principles
 
-AP Computer Science Principles /// Azizur Bhuiyan /// Start: 09/10/26 End: ? /// AP CSP Exam: 05/14/27 8AM
+### Course Notes and Python Projects
+
+**Student:** Azizur Bhuiyan  
+**Course dates:** September 10, 2026 - TBD  
+**AP CSP exam:** May 14, 2027 at 8:00 AM
+
+---
