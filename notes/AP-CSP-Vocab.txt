@@ -1,0 +1,22 @@
+Unit 4.1 The Internet
+
+computing device: a physical device that can run a program
+Examples: Computers, Tablets, Routers, etc
+
+computing system: a *group* of computing devices working together to achieve a goal
+Examples: Laptops, Computers, Tablets
+
+computer network: a group of interconnected devices sharing/recieving data
+* is a type of computing system
+
+routing: the process of finding a path from the sender to reciever
+
+bandwidth: the max data a network could hold at a certain time
+* measured in bps
+
+* routing on the internet is usually dynamic
+* the internet was designed to be scalable
+* info is passed as data streams in packets
+* packets contain a small amount of data used to route the data to the sender
+* IP, TCP, UDP, and HTTP/HTTPS are all internet protocols
+* WWW uses the internet
