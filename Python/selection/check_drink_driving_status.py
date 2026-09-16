@@ -1,3 +1,7 @@
+# 09/14/26
+
+#the program takes in an input (age) and uses functions to determine wheter you can or can't drive
+
 age = int(input("yo, how old are you rq? "))
 
 def checkDrivingStatus(age):
