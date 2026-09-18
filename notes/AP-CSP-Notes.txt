@@ -1,4 +1,4 @@
-to save codebase open terminal (ctrl + `) and do git add .
+to save codebase open source control (ctrl + shift + g) and press commit (ctrl + enter)
 
 
 // Selection
