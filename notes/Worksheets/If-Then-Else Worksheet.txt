@@ -187,5 +187,5 @@ custom if-then-else code number 3 (code snippet of a ROBLOX JToH/EToH tower gues
 3 sequence based if-then-else statements:
 
 If Samuel De Jesus got a 5 on AP Chemistry, he will be flabergasted; else, he will be unphased.
-If Azizur gets a score higher than 3 in the AP Chemistry exam, he will be estatic; else, he won't be surprised.
+If the duck is green, it is not a goose; else, it is a duck.
 If Azizur never left Kissimmee Middle School in 6th grade to go to OSCS in 7th, he would have done on-level academics; else, he would've done the highest level of academic rigor.
