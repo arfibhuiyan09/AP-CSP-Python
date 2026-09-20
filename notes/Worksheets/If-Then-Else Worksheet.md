@@ -1,6 +1,6 @@
-If-Then-Else worksheet 09/18/26
+# If-Then-Else worksheet 09/18/26
 
-Question: Sort the following into 10 distinct if-then-else blocks then code 3 examples yourself.
+#### Question: Sort the following into 10 distinct if-then-else blocks then code 3 examples yourself.
 
 1) If the traffic light is red, stop the car; else, keep driving.
 2) If the water bottle is empty, fill it up; else, drink from it.
@@ -13,8 +13,8 @@ Question: Sort the following into 10 distinct if-then-else blocks then code 3 ex
 9) If the resturant is crowded, put your name on the waiting list; else, ask for a table.
 10) If it is cloudy outside, bring an umbrella; else, wear sunglasses.
 
-custom if-then-else code number 1 (grade calc):
-
+### custom if-then-else code number 1 (grade calc):
+```py
     print("give 5 grades (in %) to avg")
     g1 = float(input("Grade 1:"))
     g2 = float(input("Grade 2:"))
@@ -35,9 +35,10 @@ custom if-then-else code number 1 (grade calc):
         print("that results in a D")
     else: 
         print("that results in a F")
+```
 
-custom if-then-else code number 2 (random number guesser):
-
+### custom if-then-else code number 2 (random number guesser):
+```py
     while not win:
     choice = input("want to play number game (Y/N) ").lower().strip()
     if choice == "y":
@@ -59,9 +60,9 @@ custom if-then-else code number 2 (random number guesser):
             if attempts == 0:
                 print("You have ran out of attempts...")
                 break
-
-custom if-then-else code number 3 (code snippet of a ROBLOX JToH/EToH tower guesser script):
-
+```
+### custom if-then-else code number 3 (code snippet of a ROBLOX JToH/EToH tower guesser script):
+```py
     def playquiz():
 
         def check():
@@ -182,10 +183,12 @@ custom if-then-else code number 3 (code snippet of a ROBLOX JToH/EToH tower gues
                 check()
             except ValueError:
                 print("--> Error: Type INTEGERS! Try again.\n")
+```
 
+### 3 sequence based if-then-else statements:
 
-3 sequence based if-then-else statements:
+`If Samuel De Jesus got a 5 on AP Chemistry, he will be flabergasted; else, he will be unphased.`
 
-If Samuel De Jesus got a 5 on AP Chemistry, he will be flabergasted; else, he will be unphased.
-If the duck is green, it is not a goose; else, it is a duck.
-If Azizur never left Kissimmee Middle School in 6th grade to go to OSCS in 7th, he would have done on-level academics; else, he would've done the highest level of academic rigor.
+`If the duck is green, it is not a goose; else, it is a duck.`
+
+`If Azizur never left Kissimmee Middle School in 6th grade to go to OSCS in 7th, he would have done on-level academics; else, he would've done the highest level of academic rigor.`
