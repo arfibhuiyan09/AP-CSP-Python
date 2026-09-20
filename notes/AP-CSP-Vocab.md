@@ -7,9 +7,6 @@
 | **Computer Network** | Interconnected devices sharing/receiving data. | Type of computing system |
 | **Routing** | Finding a path from sender to receiver. | Usually dynamic on the internet |
 | **Bandwidth** | Max data a network can hold at once. | Measured in **bps** |
-
-* The internet was designed to be **scalable**
-    - Scalability: the ability to adjust capacity of something
-* Info is passed as data streams in **packets**
-    - Packets contain a small amount of data used to route the data to the sender
-* ` IP, TCP, UDP, and HTTP/HTTPS ` are all internet **protocols**
+| **Scalability** | The ability to adjust capacity of something. | The internet was designed to be **scalable** |
+| **Packets** | A small amount of data used to route the data to the sender. | Useful submit data reliabily and fast |
+| **Internet Protocols** | A set of rules that allow different devices to contact to eachother. | ` IP, TCP, UDP, and HTTP/HTTPS ` are all **internet protocols** |

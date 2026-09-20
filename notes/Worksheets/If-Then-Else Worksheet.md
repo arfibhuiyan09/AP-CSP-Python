@@ -57,52 +57,15 @@
                 print(f"GGs, the answer was {number}. you got the answer in {count}/7 total attempts!")
                 win = True
                 break
-            if attempts == 0:
+            elif attempts == 0:
                 print("You have ran out of attempts...")
                 break
+            else:
+                print(f" {choice} was a invalid prompt, try again!")
 ```
 ### custom if-then-else code number 3 (code snippet of a ROBLOX JToH/EToH tower guesser script):
 ```py
     def playquiz():
-
-        def check():
-            global lives
-            def convert_integers_to_difficulty(Difficulty):
-                if Difficulty == 1:
-                    return "Easy"
-                elif Difficulty == 2:
-                    return "Medium"
-                elif Difficulty == 3:
-                    return "Hard"
-                elif Difficulty == 4:
-                    return "Difficult"
-                elif Difficulty == 5:
-                    return "Challenging"
-                elif Difficulty == 6:
-                    return "Intense"
-                elif Difficulty == 7:
-                    return "Remorseless"
-                elif Difficulty == 8:
-                    return "Insane"
-                elif Difficulty == 9:
-                    return "Extreme"
-                elif Difficulty == 10:
-                    return "Terrifying"
-                elif Difficulty == 11:
-                    return "Catastrophic"
-                return "N/A"
-            converted_difficulty = convert_integers_to_difficulty(difficulty)
-
-            def convert_integers_to_tower_type(Tower_Type):
-                if Tower_Type == 1:
-                    return "Tower"
-                elif Tower_Type == 2:
-                    return "Steeple"
-                elif Tower_Type == 3:
-                    return "Mini Tower"
-                elif Tower_Type == 4:
-                    return "Other"
-            converted_type = convert_integers_to_tower_type(towertype)
                     
             if acronymct < TOWER_ACRONYM_COUNT:
                 timer()
@@ -175,14 +138,6 @@
                 time.sleep(4) #let the audio of the user's failures play fully
                 sys.exit()
             print(f"Current Date: {date.today()}")
-
-            try:
-                acronymct = int(input("oka, enter how much char you think the tower has in integers Eg. '3' "))
-                difficulty = int(input("oka next enter what difficulty you think the tower is IN INTEGERS Eg. '4 (Difficult)' "))
-                towertype = int(input("oka next enter what tower type you think this tower is (Tower: 1, Steeple: 2, Minitower: 3, Anything Else: 4 \n"))
-                check()
-            except ValueError:
-                print("--> Error: Type INTEGERS! Try again.\n")
 ```
 
 ### 3 sequence based if-then-else statements:
