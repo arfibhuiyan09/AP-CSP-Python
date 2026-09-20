@@ -7,10 +7,10 @@ Wow! its a Codespace!
 
 `AP CSP Exam: 05/14/27 8AM`
 
-| Date | Topics Used | Details | Programs Created | 
-| :--- | :--- | :--- | :--- | 
-| **09/14/26** | 3.6 Conditionals | basic if-else statements | Computers, tablets, routers |
-| **Computing System** | Devices working together to achieve a goal. | Connected laptops, office network |
-| **Computer Network** | Interconnected devices sharing/receiving data. | Type of computing system |
-| **Routing** | Finding a path from sender to receiver. | Usually dynamic on the internet |
-| **Bandwidth** | Max data a network can hold at once. | Measured in **bps** |
+| Date | Topics Used | Details | Programs Created | Information Programs |
+| :--- | :--- | :--- | :--- | :--- |
+| **09/11/26** | 3.6 Conditionals | Created `AP-CSP-Python` repository | `soccer_score.py`, `bank_balance.py`, `helloname.py` | |
+| **09/14/26** | 3.6 Conditionals | Basic `if-else` statements | `check_drink_driving_status.py` | `AP-CSP-Notes.md` |
+| **09/15/26** | 4.1 The Internet | Notes of key **AP-CSP** internet vocab | | `AP-CSP-Vocab.md` |
+| **09/16/26** | 3.6 Conditionals | Some more basic `if else` practice | `grade_converter.py`, `single_line_code.py` | |
+| **09/18/26** | 3.6 Conditionals | An `if elif else` worksheet | | `If-Then-Else Worksheet.md` |
