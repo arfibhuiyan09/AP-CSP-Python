@@ -17,7 +17,8 @@
 ##### 4.1
 #### (09/21/26)
 
-##### the layers of internet protocols are decending
+### Internet Protocol (IP) Layering
+###### the layers of internet protocols are decending
 
 `application` - HTTP → sends the **message** from point A to point B
 
@@ -41,7 +42,6 @@
 
 ___
 
-##### 4.1
 #### (09/22/26)
 ### IP Addresses
 
