@@ -15,3 +15,4 @@ Wow! its a Codespace!
 | **09/16/26** | **3.6 Conditionals** | Some more basic `if else` practice | `grade_converter.py`, `single_line_code.py` | |
 | **09/18/26** | **3.6 Conditionals** | An `if elif else` worksheet | | `If-Then-Else Worksheet.md` | `AP-CSP-Notes.md`|
 | **09/21/26** | **4.1 The Internet** | Introduced Internet Protocol Layering | | | `AP-CSP-Notes.md`|
+| **09/22/26** | **4.1 The Internet** | IPv4 v. IPv6 | | | `AP-CSP-Notes.md`|
