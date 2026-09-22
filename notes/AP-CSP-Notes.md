@@ -31,10 +31,27 @@
 
 ##### if you specialise in a specific layer eg. network, you can only focus on the network layer and not above nor below.
 
-___
-
 ### Transport Protocols
 
 `TCP` - **Transmission Control Protocol** → reliable, congestion control, flow control, is a **lossless** transfer of data
 
 `UDP` - **User Datagram Protocol** → unreliable, unordered delivery, is a **lossy** transfer of data
+
+* all of these are  `metadata`  
+
+___
+
+##### 4.1
+#### (09/22/26)
+### IP Addresses
+
+`IPv4` - a **32bit** identifier associated with each host or router interface
+
+* an IPv4 IP Address that is 76.50.100.235 is `1001100.110010.1100100.11101011` in binary. ***notice each (group) has 8 bits***
+
+`IPv6` - a **128bit** identifier, associated with each host or router interface
+
+* it is written as eight groups of four hexadecimal digits (characters 0–9 and a–f) separated by colons.
+
+    - IPv6 is exactly `2^96` times larger than IPv4 since `2^128/2^32 = 2^(128-32) = 2^96`
+
