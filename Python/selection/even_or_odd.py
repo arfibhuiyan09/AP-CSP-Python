@@ -3,6 +3,7 @@
 # the program takes in an input (number) and uses a if/else statement WITH a modulo (%) to see wheter the result is even (0) or odd (1)
 # this program also includes an optional 'message' function which just adds personalisation to the code; adding antipication to the result.
 
+
 from time import sleep
 
 def message():
