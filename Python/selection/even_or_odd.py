@@ -6,6 +6,7 @@
 
 from time import sleep
 
+
 def message():
     print("wait lemme check my databases.")
     sleep(0.5)
@@ -14,11 +15,17 @@ def message():
     print("wait lemme check my databases...")
     sleep(0.5)
 
-while True:
-    number = int(input("enter ANY random number to determine wheter it is even or odd: "))
+count = int(input("for how many numbers do you want to find out whether it is even or odd? (INTEGERS ONLY) "))
+
+for i in range(count):
+    number = int(input("\nenter ANY random number to determine whether it is even or odd: "))
     if number % 2 == 1:
         message()
         print(f"{number} is a ODD number!\n")
-    elif number % 2 == 0:
+    else:
         message()
         print(f"{number} is a EVEN number!\n")
+
+    count -=1   
+    print(f"{count} checks left.")
+
