@@ -12,7 +12,7 @@ Wow! its a Codespace!
 
 `AP CSP Exam: 05/14/27 8AM`
 
-| Date | Topics Used | Details | Programs Created | Information Programs | Programs Updated |
+| Date | Topics Used | Details | Programs Created | Information Programs Created | Programs Updated |
 | :--- | :--- | :--- | :--- | :--- | :--- | 
 | **09/11/26** | **3.6 Conditionals** | Created `AP-CSP-Python` repository | `soccer_score.py`, `bank_balance.py`, `helloname.py` | |
 | **09/14/26** | **3.6 Conditionals** | Basic `if-else` statements | `check_drink_driving_status.py` | `AP-CSP-Notes.md` | |
@@ -21,4 +21,4 @@ Wow! its a Codespace!
 | **09/18/26** | **3.6 Conditionals** | An `if elif else` worksheet | | `If-Then-Else Worksheet.md` | `AP-CSP-Notes.md`|
 | **09/21/26** | **4.1 The Internet** | Introduced Internet Protocol Layering | | | `AP-CSP-Notes.md`|
 | **09/22/26** | **4.1 The Internet** | IPv4 v. IPv6 | | | `AP-CSP-Notes.md`|
-| **09/23/26** | **3.6 Conditionals** | Introduced Modulo (`%`) | `even_or_odd.py` `receipt_total`| | |
+| **09/23/26** | **3.6 Conditionals** | Introduced Modulo (`%`) | `even_or_odd.py` `even_odd_clean` `receipt_total`| | |
