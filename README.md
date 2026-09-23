@@ -16,3 +16,4 @@ Wow! its a Codespace!
 | **09/18/26** | **3.6 Conditionals** | An `if elif else` worksheet | | `If-Then-Else Worksheet.md` | `AP-CSP-Notes.md`|
 | **09/21/26** | **4.1 The Internet** | Introduced Internet Protocol Layering | | | `AP-CSP-Notes.md`|
 | **09/22/26** | **4.1 The Internet** | IPv4 v. IPv6 | | | `AP-CSP-Notes.md`|
+| **09/23/26** | **3.6 Conditionals** | Introduced Modulo (`%`) | `even_or_odd.py`| | |
