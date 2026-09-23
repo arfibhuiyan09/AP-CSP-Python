@@ -1,5 +1,10 @@
-## AP Computer Science Principles 26-27
+## <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Logo_of_Advanced_Placement_Computer_Science_Principles.svg" alt="Icon" height="26" style="vertical-align: -13%;"> AP Computer Science Principles 26-27 <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Logo_of_Advanced_Placement_Computer_Science_Principles.svg" alt="Icon" height="26" style="vertical-align: -13%;">
+
+
+
+
 Wow! its a Codespace!
+
 
 **Azizur Bhuiyan**
 
