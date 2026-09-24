@@ -6,5 +6,5 @@ if protocol == "HTTP":
     print("Application")
 elif protocol == "IP":
     print("Network")
-elif protocol == "TCP" or "UDP":
+elif protocol in ("TCP", "UDP"):
     print("Transport")
