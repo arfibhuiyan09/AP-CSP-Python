@@ -47,11 +47,11 @@ ___
 
 `IPv4` - a **32bit** identifier associated with each host or router interface
 
-* an IPv4 IP Address that is 76.50.100.235 is `1001100.110010.1100100.11101011` in binary. ***notice each (group) has 8 bits***
+* an IPv4 IP Address that is 76.50.100.235 is `01001100.00110010.01100100.11101011` in binary. ***notice each (group) has 8 bits***
 
 `IPv6` - a **128bit** identifier, associated with each host or router interface
 
-* it is written as eight groups of four hexadecimal digits (characters 0–9 and a–f) separated by colons.
+* it is written as eight groups of four hexadecimal digits (characters 0–9 and a–f) separated by colons like `2001:0db8:85a3:0000:0000:8a2e:0370:7334`
 
     - IPv6 is exactly `2^96` times larger than IPv4 since `2^128/2^32 = 2^(128-32) = 2^96`
 

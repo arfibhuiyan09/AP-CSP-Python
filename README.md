@@ -21,4 +21,5 @@ Wow! its a Codespace!
 | **09/18/26** | **3.6 Conditionals** | An `if elif else` worksheet | | `If-Then-Else Worksheet.md` | `AP-CSP-Notes.md`|
 | **09/21/26** | **4.1 The Internet** | Introduced Internet Protocol Layering | | | `AP-CSP-Notes.md`|
 | **09/22/26** | **4.1 The Internet** | IPv4 v. IPv6 | | | `AP-CSP-Notes.md`|
-| **09/23/26** | **3.6 Conditionals** | Introduced Modulo (`%`) | `even_or_odd.py` `even_odd_clean` `receipt_total`| | |
+| **09/23/26** | **3.6 Conditionals** | Introduced Modulo (`%`) | `even_or_odd.py` `even_odd_clean.py` `receipt_total.py`| ||
+| **09/23/26** | **-** | Individual Contest 2 (Quiz) | `ticket_prices.py` `internet_layers.py` `letter_grades.py`| |`AP-CSP-Notes.md` `deleted receipt_total.py`|
