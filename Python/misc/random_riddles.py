@@ -1,7 +1,7 @@
 import random
 import time
 
-# Eternal Towers of Boat; Tower of Jank Physics; Doorway of Two and Gateway of Four Riddle Generator
+# Eternal Towers of Boat; Tower of Jank Physics; Passageway of Two and Gateway of Four Riddle Generator
 # For group of awesomeness and number use only
 # 09/28/26
 
