@@ -14,11 +14,11 @@ Wow! its a Codespace!
 
 | Date | AP CSP Topics | Details | Created | Updated / Deleted | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **09/11/26** | **3.6 Conditionals** | Created `AP-CSP-Python` repository | `soccer_score.py`, `bank_balance.py`, `helloname.py` | — | — |
-| **09/14/26** | **3.6 Conditionals** | Practiced basic `if-else` statements | `check_drink_driving_status.py`, `AP-CSP-Notes.md` | — | — |
+| **09/11/26** | **3.6 Conditionals** | Created `AP-CSP-Python` repository | `soccer_score.py`, `bank_balance.py`, `helloname.py` | — | Created `selection/`, `Fridays/` folder |
+| **09/14/26** | **3.6 Conditionals** | Practiced basic `if-else` statements | `check_drink_driving_status.py`, `AP-CSP-Notes.md` | — | Created `notes/` folder |
 | **09/15/26** | **4.1 The Internet** | Took notes on key AP CSP Internet vocabulary | `AP-CSP-Vocab.md` | — | — |
 | **09/16/26** | **3.6 Conditionals** | Practiced basic `if-else` statements | `grade_converter.py`, `single_line_code.py` | — | — |
-| **09/18/26** | **3.6 Conditionals** | Completed `if-elif-else` worksheet | `If-Then-Else Worksheet.md` | Updated `AP-CSP-Notes.md` | — |
+| **09/18/26** | **3.6 Conditionals** | Completed `if-elif-else` worksheet | `If-Then-Else Worksheet.md` | Updated `AP-CSP-Notes.md` | Created `Worksheets/` folder |
 | **09/21/26** | **4.1 The Internet** | Learned Internet protocol layering | — | Updated `AP-CSP-Notes.md` | — |
 | **09/22/26** | **4.1 The Internet** | Compared IPv4 and IPv6 | — | Updated `AP-CSP-Notes.md` | — |
 | **09/23/26** | **3.6 Conditionals** | Introduced Modulo (`%`) | `even_or_odd.py`, `even_odd_clean.py`, `receipt_total.py` | — | — |

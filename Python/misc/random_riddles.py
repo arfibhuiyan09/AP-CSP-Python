@@ -1,6 +1,10 @@
 import random
 import time
 
+# Eternal Towers of Boat; Tower of Jank Physics; Two Boss Battle riddle generator
+# For group of awesomeness and number use only
+# 09/28/26
+
 count = 0
 
 riddles = {
