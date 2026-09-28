@@ -54,7 +54,7 @@ def divide(choice):
         total_div = (num1 / num2)
         print(f"the answer is {round(total_div, 3)}")
     except ZeroDivisionError:
-        print(f"ERROR 200: {num1} / {num2} is not allowed; you can not divide by zero. Try again.")
+        print("ERROR 200: Illegal division by zero detected. Try again.")
 
 while True:
     choice = input("\ndo you want to add, subtract, multiply, divide, or quit? ").lower()

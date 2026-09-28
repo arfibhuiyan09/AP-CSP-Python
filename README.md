@@ -24,3 +24,4 @@ Wow! its a Codespace!
 | **09/23/26** | **3.6 Conditionals** | Introduced Modulo (`%`) | `even_or_odd.py`, `even_odd_clean.py`, `receipt_total.py` | — | — |
 | **09/23/26** | **—** | Completed Individual Contest 2 (Quiz) | `ticket_prices.py`, `internet_layers.py`, `letter_grades.py` | Updated `AP-CSP-Notes.md`; deleted `receipt_total.py` | — |
 | **09/26/26** | **3.6 Conditionals** | Experimented with `match` and `raise` | `match.py`, `raise.py` | — | Created `misc/` folder |
+| **09/28/26** | **3.8 Iteration** | Introduced `while` loops | `scenario1.py`, `scenario2.py` `random_riddles.py` | — | Created `loops/` folder |
