@@ -24,7 +24,7 @@ if choice == "answer":
     print("\nyou tried to answer the question, it read: \n --> CO(g) + 2 H2(g) <=> CH3OH(g)      ΔH = -90 kJ/mol_rxn <--\n \n Given that initially P_CO = 0.50 atm and P_H2 = 1.0 atm, what is the  equilibrium partial pressure of CH3OH if the total pressure in the  container at equilibrium is 0.78 atm?  ")
     answer = float(input("What do you respond with? (WRITE ONLY NUMBER) "))
 
-    if answer == "0.36":
+    if answer == 0.36:
         print(f"You wrote {answer} on your test booklet, you later go home to check whether you were right or not and... YOU WERE!")
 
         choice2 = input("what do you do? (celebrate) ").lower().strip()
@@ -33,7 +33,7 @@ if choice == "answer":
             print("you celebrated at the fact you got the question correct miracously; months later you hear that you got a 2 on the exam, causing you to have a stroke\n \n THE END")
      
 
-    elif answer in ("0.35", "0.37"): 
+    elif answer in (0.35, 0.37):
         print(f"You wrote {answer} on your test booklet, you later go home to check whether you were right or not and... you missed the question within ONE HUNDREDTH... you just faint on the spot at the hearing of this. \n \n THE END")
 
     else:
