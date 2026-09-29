@@ -12,7 +12,7 @@ while True:
         print("you cried... thats it... you still failed the question since you didn't bother attempting it :(")
         break
     elif choice == "sleep":
-        print("you wake up 6 hours later, hours after the AP Exam ended, you failed the question since you didn't attempt it but who knows what you scored on your AP Chem Exam...")
+        print("you wake up 6 hours later, hours after the AP Exam ended; you failed the question since you didn't attempt it but who knows what you scored on your AP Chem Exam...")
         break
 
 
