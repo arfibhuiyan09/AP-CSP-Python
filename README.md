@@ -1,10 +1,6 @@
 ## <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Logo_of_Advanced_Placement_Computer_Science_Principles.svg" alt="Icon" height="26" style="vertical-align: -13%;"> AP Computer Science Principles 26-27 <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Logo_of_Advanced_Placement_Computer_Science_Principles.svg" alt="Icon" height="26" style="vertical-align: -13%;">
 
-
-
-
 Wow! its a Codespace!
-
 
 **Azizur Bhuiyan**
 
@@ -20,7 +16,7 @@ Wow! its a Codespace!
 | **09/16/26** | **3.6 Conditionals** | Practiced basic `if-else` statements | `grade_converter.py`, `single_line_code.py` | — | — |
 | **09/18/26** | **3.6 Conditionals** | Completed `if-elif-else` worksheet | `If-Then-Else Worksheet.md` | Updated `AP-CSP-Notes.md` | Created `Worksheets/` folder |
 | **09/21/26** | **4.1 The Internet** | Learned Internet protocol layering | — | Updated `AP-CSP-Notes.md` | — |
-| **09/22/26** | **4.1 The Internet** | Compared IPv4 and IPv6 | — | Updated `AP-CSP-Notes.md` | — |
+| **09/22/26** | **4.1 The Internet** | Compared `IPv4` and `IPv6` | — | Updated `AP-CSP-Notes.md` | — |
 | **09/23/26** | **3.6 Conditionals** | Introduced Modulo (`%`) | `even_or_odd.py`, `even_odd_clean.py`, `receipt_total.py` | — | — |
 | **09/23/26** | **—** | Completed Individual Contest 2 (Quiz) | `ticket_prices.py`, `internet_layers.py`, `letter_grades.py` | Updated `AP-CSP-Notes.md`; Deleted `receipt_total.py` | — |
 | **09/26/26** | **—** | Experimented with `match` and `raise` | `match.py`, `raise.py` | — | Created `misc/` folder |
