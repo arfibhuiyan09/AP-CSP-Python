@@ -55,3 +55,18 @@ ___
 
     - IPv6 is exactly `2^96` times larger than IPv4 since `2^128/2^32 = 2^(128-32) = 2^96`
 
+___
+
+#### (09/30/26)
+##### 3.10
+### Arrays (lists)
+
+a `list` can store multiple datatypes at once
+
+```py
+grades_array = [76, "test", 42.0000, 1, 100, 82, 59, 94]
+
+print(grades_array[6]) # --> output: 59 
+print(grades_array[2]) # --> output: 42.0
+print(grades_array[1]) # --> output: test
+```
