@@ -1,5 +1,6 @@
-from time import sleep
 from random import randint
+from time import sleep
+
 
 def wait():
     print("you wait until AP Score day arrives...")

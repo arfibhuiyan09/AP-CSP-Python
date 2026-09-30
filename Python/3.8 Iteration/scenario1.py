@@ -13,6 +13,6 @@ while True:
     # w raise keyword
     else:
         err = "dude"
-        raise Exception(err)
+        raise Exception(err)  # noqa: TRY002
 
 print("End of story!")
