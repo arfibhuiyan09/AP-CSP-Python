@@ -23,4 +23,5 @@ Wow! its a Codespace!
 | **09/28/26** | **3.8 Iteration** | Introduced `while` loops | `scenario1.py`, `scenario2.py` `random_riddles.py` | — | Created `loops/` folder |
 | **09/29/26** | **3.7 Nested If-Else Statements** | `scenario2_cont.py` | `scenario2_cont.py` | Deleted `selection/`, `loops/` | Revamped organisation by seperating coding topics per topic |
 | **09/30/26** | **3.10 Lists** | Intro to `lists` lecture | `scenario2_cont_list.py` | Updated `AP-CSP-Notes.md` | Created `3.10 Lists/` folder |
+| **10/01/26** | **-** | Rework on `scenario2_cont_py` | | Updated `scenario2_cont_py` | - |
 

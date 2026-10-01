@@ -4,6 +4,7 @@ import random
 import sys
 import time
 
+# -------------- FUNCTIONS --------------
 
 # wait helper function to find out AP Scores through `random.randint(a,b)`
 def wait():
@@ -24,6 +25,8 @@ def wait():
 
 # play_again helper function to figure out if the user wants to play again
 def play_again():
+
+    print("")
     while True:
         choice = input("\ndo you want to play again? (Y/N) ").lower().strip()
 
@@ -48,55 +51,60 @@ def play_again():
 
 
 # Main Game Loop
+
+choice_arr = []
+
 while True:
-    # Reset input list at the start of every new playthrough
-    choice_arr = []
-
-    print("\nyou are currently taking the Advanced Placement Chemistry exam...")
-    print("\nyou see 'K' in a FRQ question response,\n")
-
-    # Branch 1:
     action = input("\nwhat do you do? (answer/cry/sleep) ").lower().strip()
-    choice_arr.append(action) #.append adds an element to a list, in this instance, `choice_arr`
+    if action in ["answer", "cry", "sleep"]:
+        choice_arr.append(action)
+        break
+        
+    print(f"'{action}' is not a option... Choose again.")
 
-    if choice_arr[0] == "answer":
-        print("\nyou tried to answer the question, it read: \n --> CO(g) + 2 H2(g) <=> CH3OH(g)      ΔH = -90 kJ/mol_rxn <--\n \n Given that initially P_CO = 0.50 atm and P_H2 = 1.0 atm, what is the equilibrium partial pressure of CH3OH if the total pressure in the container at equilibrium is 0.78 atm?  ")
+# -------------- BRANCH 1 --------------
 
-        # Catch invalid numerical inputs so program doesn't crash on typos
-        try:
-            ans = round(float(input("\nWhat do you respond with? (WRITE ONLY NUMBER) ")), 2) #literally just rounds a float the user provides to 2 decimal places
-            choice_arr.append(ans)
-        except ValueError:
-            print("\nThat wasn't a valid number! You panicked and left the answer blank.")
-            choice_arr.append(0.0)
+if choice_arr[0] == "answer":
+    print("\nyou tried to answer the question, it read: \n --> CO(g) + 2 H2(g) <=> CH3OH(g)      ΔH = -90 kJ/mol_rxn <--\n \n Given that initially P_CO = 0.50 atm and P_H2 = 1.0 atm, what is the equilibrium partial pressure of CH3OH if the total pressure in the container at equilibrium is 0.78 atm?  ")
 
-        # Branch 1a: Correct Answer
-        if choice_arr[1] == 0.36:
-            print(f"\nYou wrote {choice_arr[1]} on your test booklet, you later go home to check whether you were right or not and... YOU WERE!")
+    # Catch invalid numerical inputs so program doesn't crash on typos
+    try:
+        ans = round(float(input("\nWhat do you respond with? (WRITE ONLY NUMBER) ")), 2) #literally just rounds a float the user provides to 2 decimal places
+        choice_arr.append(ans)
+    except ValueError:
+        print("\nThat wasn't a valid number! You panicked and left the answer blank.")
+        choice_arr.append(0.0)
 
-            cel = input("\nwhat do you do? (celebrate) ").lower().strip()
-            choice_arr.append(cel)
+    # Branch 1a: Correct Answer
+    if choice_arr[1] == 0.36:
+        print(f"\nYou wrote {choice_arr[1]} on your test booklet, you later go home to check whether you were right or not and... YOU WERE!")
 
-            print("\nyou celebrated at the fact you got the question correct miraculously; months later you hear that you got a 2 on the exam, causing you to faint\n \n THE END (Ending 1)")
+        cel = input("\nwhat do you do? (celebrate) ").lower().strip()
+        choice_arr.append(cel)
 
-        # Branch 1b: Close Miss
-        elif choice_arr[1] in (0.35, 0.37):
-            print(f"\nYou wrote {choice_arr[1]} on your test booklet, you later go home to check whether you were right or not and... you missed the question within ONE HUNDREDTH... you just faint on the spot at the hearing of this. \n \n THE END (Ending 2)")
+        print("\nyou celebrated at the fact you got the question correct miraculously; months later you hear that you got a 2 on the exam, causing you to faint\n \n THE END (Ending 1)")
 
-        # Branch 1c: Incorrect Answer
-        else:
-            print(f"\nYou wrote {choice_arr[1]} on your test booklet, you later go home to check whether you were right or not and... you were unfortunately wrong...")
+    # Branch 1b: Close Miss
+    elif choice_arr[1] in (0.35, 0.37):
+        print(f"\nYou wrote {choice_arr[1]} on your test booklet, you later go home to check whether you were right or not and... you missed the question within ONE HUNDREDTH... you just faint on the spot at the hearing of this. \n \n THE END (Ending 2)")
 
-            next_move = input("\nwhat do you do? (sleep/wait) ").lower().strip()
-            choice_arr.append(next_move)
+    # Branch 1c: Incorrect Answer
+    else:
+        print(f"\nYou wrote {choice_arr[1]} on your test booklet, you later go home to check whether you were right or not and... you were unfortunately wrong...")
 
-            if choice_arr[2] == "sleep":
-                print("\nafter that question, you go to sleep peacefully not worrying about the exam at all at the moment. You felt at peace \n \n THE END (Ending 3)")
-            elif choice_arr[2] == "wait":
-                wait() # Triggers Ending 4
+        next_move = input("\nwhat do you do? (sleep/wait) ").lower().strip()
+        choice_arr.append(next_move)
 
-    # Branch 2: Cry
-    elif choice_arr[0] == "cry":
+        if choice_arr[2] == "sleep":
+            print("\nafter that question, you go to sleep peacefully not worrying about the exam at all at the moment. You felt at peace \n \n THE END (Ending 3)")
+        elif choice_arr[2] == "wait":
+            wait() # Triggers Ending 4
+
+# -------------- BRANCH 2 --------------
+
+# Branch 2: Cry
+elif choice_arr[0] == "cry":
+    while True:
         print("\nyou cried... thats it... you still failed the question since you didn't bother attempting it :(")
 
         cry_move = input("\nwhat do you do? (wait/distract) ").lower().strip()
@@ -113,11 +121,16 @@ while True:
             choice_arr.append(reflect)
             wait()
 
+        else:
+            print(f"'{cry_move}' is not a option... Choose again.")
 
-    # Branch 3: Sleep
-    elif choice_arr[0] == "sleep":
-        print("\nyou wake up 6 hours later, hours after the AP Exam ended; you failed the question since you didn't attempt it but who knows what you scored on your AP Chem Exam...")
+# -------------- BRANCH 3 --------------
 
+# Branch 3: Sleep
+elif choice_arr[0] == "sleep":
+    print("\nyou wake up 6 hours later, hours after the AP Exam ended; you failed the question since you didn't attempt it but who knows what you scored on your AP Chem Exam...")
+
+    while True:
         sleep_move = input("\nwhat do you do? (wait/sleep) ").lower().strip()
         choice_arr.append(sleep_move)
 
@@ -165,10 +178,22 @@ while True:
                 # Branch 3biii: Escaping the school via roof/front office
                 elif midnight_move in ["roof", "front_office"]:
                     print(f"\nyou checked the {midnight_move}, but it was locked...\n")
+                
+                else:
+                    print(f"'{midnight_move}' is not a option... Choose again.")
+        else:
+            print(f"'{sleep_move}' is not a option... Choose again.")
 
-    else:
-        print("\nInvalid choice! You stood there frozen and ran out of time. \n \n THE END (Ending 6)")
         
+else:
+    print("\nInvalid choice! You stood there frozen and ran out of time. \n \n THE END (Ending 6)")
 
-    # single call to play_again() at the end of every branch
-    play_again()
+    
+# game summary
+print("\n--------------------------------------------------")
+print("GAME OVER - SUMMARY OF YOUR VALID CHOICES:")
+print(choice_arr)
+print("--------------------------------------------------")
+
+# single call to play_again() at the end of every branch
+play_again()
