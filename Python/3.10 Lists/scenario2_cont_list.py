@@ -165,6 +165,7 @@ while True:
 
     else:
         print("\nInvalid choice! You stood there frozen and ran out of time. \n \n THE END (Ending 6)")
+        
 
     # single call to play_again() at the end of every branch
     play_again()
