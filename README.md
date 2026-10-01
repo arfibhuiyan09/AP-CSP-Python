@@ -21,6 +21,6 @@ Wow! its a Codespace!
 | **09/23/26** | **—** | Completed Individual Contest 2 (Quiz) | `ticket_prices.py`, `internet_layers.py`, `letter_grades.py` | Updated `AP-CSP-Notes.md`; Deleted `receipt_total.py` | — |
 | **09/26/26** | **—** | Experimented with `match` and `raise` | `match.py`, `raise.py` | — | Created `misc/` folder |
 | **09/28/26** | **3.8 Iteration** | Introduced `while` loops | `scenario1.py`, `scenario2.py` `random_riddles.py` | — | Created `loops/` folder |
-| **09/29/26** | **3.7 Nested If-Else Statements** | Expanded `scenario2.py` with nested `if-else` statements | `scenario2_cont.py` | Deleted `selection/`, `loops/` | Revamped organisation by seperating coding topics per topic |
-| **09/30/26** | **3.10 Lists** | Intro to `lists` lecture | Expanded `scenario2.py` with nested `list`s | Updated `AP-CSP-Notes.md` | Created `3.10 Lists/` folder |
+| **09/29/26** | **3.7 Nested If-Else Statements** | `scenario2_cont.py` | `scenario2_cont.py` | Deleted `selection/`, `loops/` | Revamped organisation by seperating coding topics per topic |
+| **09/30/26** | **3.10 Lists** | Intro to `lists` lecture | `scenario2_cont_list.py` | Updated `AP-CSP-Notes.md` | Created `3.10 Lists/` folder |
 
