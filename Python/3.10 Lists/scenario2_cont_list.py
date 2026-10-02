@@ -46,8 +46,8 @@ def play_again():
             time.sleep(0.5)
 
             for i in range(3):
-                print(f"\nLoading .")
-                time.sleep(0.5)
+                print(f"\nLoading {'.' * (i + 1)}")
+                time.sleep(1)
 
             print(f"\n{GREEN}{BOLD}Loaded!{RESET}\n\n")
             return  # Returns control to the game loop
@@ -227,6 +227,7 @@ def sleep():
 
 # ---------MAIN GAME LOOP-----------
 def main():
+    print(f"{RED}{BOLD}{UNDERLINE}IMPORTANT: COLOR IN THE DECISION BANK IS NOT ASSOCIATED WITH THE OUTCOME OF IT.{RESET} otherwise, have fun!")
     print("you are currently taking the Advanced Placement Chemistry exam...")
     print("you see 'K' in a FRQ question response,\n")
 
@@ -240,12 +241,11 @@ def main():
 
 # introduction / one time use code
 while True:
-
-    choice = input(f"Hey! Before you play this AP Chemistry-inspired text-adventure, do you want to read a tutorial? or to start the game? ({YELLOW}tutorial{RESET}/{GREEN}play{RESET}) ").lower().strip()
+    choice = input(f"Hey! Before you play this AP Chemistry-inspired text-adventure, do you want to read a tutorial? or to start the game? ({RED}tutorial{RESET}/{GREEN}play{RESET}) ").lower().strip()
 
     if choice in ("tut", "tutorial"):
 
-        print(f"\nAlright so, the goal of this text adventure is to survive the aftermath of an AP Chemistry exam and discover one of five possible endings\n")
+        print(f"\nAlright so, the {BOLD}{GREEN}goal{RESET} of this text adventure is to survive the aftermath of an AP Chemistry exam and discover one of five possible endings\n")
         time.sleep(2)
         print("You will be placed in a scenario where you have just taken an AP Chemistry exam.\n")
         time.sleep(2)
