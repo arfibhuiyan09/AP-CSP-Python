@@ -6,7 +6,7 @@ import time
 Typewriter Generator:
 
 This script essentially simulates a Typewriter effect by spacing each letter with a list() function, then using a for loop
-to iterate through each index with a end="", flush=True to clean the terminal and allow the user to see the live effect.
+to iterate through each index with a end="", flush=True to suppress the new line, and force the output to display; allowing the user to see the live effect.
 
 
 """
