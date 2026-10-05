@@ -64,7 +64,7 @@ def generator():
         for n in range(number):
             print(f"You're random number is {GREEN}{BOLD}{random.randint(min,max)}{RESET}! Click to proceed to the next number. Amount of numbers left: {(number - 1) - n}\n")
             input()
-            return True
+        return True
 
 while True:
     choice = input("do you want to generate random numbers, or play a random number guessing game? (generator/guess) ").lower().strip()
