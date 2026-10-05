@@ -1,4 +1,17 @@
-# 10/01/26 scenario2.py refactored entirely to a full fleged game
+# 10/01/26
+
+"""AP Chemistry Survival Game - Text-Based Adventure.
+
+This module simulates the post-exam experience of taking an AP Chemistry test.
+Players navigate branching decision trees using user input to unlock one of five 
+distinct endings.
+
+Features:
+    - Interactive CLI choices with input validation.
+    - ANSI color formatting for enhanced terminal display.
+    - Summary state tracking (`choice_arr`) and dynamic loop handling.
+"""
+
 
 import random
 import sys
