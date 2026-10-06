@@ -27,3 +27,4 @@ Wow! its a Codespace!
 | **10/02/26** | **—** | Minor QoL updates for `scenario2_cont_list.py` | — | Updated `scenario2_cont_list.py` | — |
 | **10/04/26** | **—** | Added docstrings to `scenario2_cont_list.py` | `rand_num.py`  | Updated `scenario2_cont_list.py` | Created `side projects/` folder |
 | **10/05/26** | **—** | A singular bug fix in `rand_num.py`, and experimeted with `print()` parameters such as `print(x,y,z)`  | `typewriter.py` | Updated `rand_num.py` | — |
+| **10/06/26** | **3.8 Iteration** | Error Analysis and Code Tracing for several `while True` loops | — | Updated `AP-CSP-Notes.md` | — |

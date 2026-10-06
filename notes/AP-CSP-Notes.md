@@ -77,81 +77,145 @@ ___
 ##### 3.8
 #### `while True:` loops:
 
-**Q: Identify the error in the following code snippet:**
+### **Q1: Identify all errors in the following code snippet:**
 
-```py
+```python
 runLoopForever = input("0 to quit, 1 to loop")
 
 while (runLoopForever = 1)
     print("This loop is running forever")
 ```
 
-*A<sub>1</sub>: the **`while`** loop is missing a colon at the end of **`while (runLoopForever = 1)`** → Syntax Error* <br>
-*A<sub>2</sub>: the **`while (runLoopForever = 1)`** loop has `=` instead of `==` → Logic Error*
-<br>
-*A<sub>3</sub>: the **`runLoopForever`** variable saved `"1"` and not `1` since `input()` always stores a `string`, therefore it must be casted to an `int` → Logic Error*
+#### **Error Analysis:**
 
-**Q: What is the output of the following code snippet:**
+| Line | Code Segment | Error Type | Explanation |
+| :--- | :--- | :--- | :--- |
+| **3** | `while (runLoopForever = 1)` | **SyntaxError** | Missing a colon `:` at the end of the `while` header. |
+| **3** | `runLoopForever = 1` | **SyntaxError** | Uses `=` (assignment) instead of `==` (equality comparison). |
+| **1** | `input(...)` | **Logic Error** | `input()` returns a string (e.g., `"1"`). Comparing string `"1"` to integer `1` evaluates to `False`, preventing execution. |
 
-```py
+#### **Corrected Code:**
+```python
+runLoopForever = int(input("0 to quit, 1 to loop"))
+
+while runLoopForever == 1:
+    print("This loop is running forever")
+```
+
+---
+
+### **Q2: What is the output of the following code snippet?**
+
+```python
 counter = 1
 
-while (counter < 5):
+while counter < 5:
     counter += 1
 
 print(counter)
 ```
-*A: The output would be `5` since the **`while (counter < 5)`** loop runs until **`counter == 5`** then prints it via **`print(counter)`** at the end of the code*
 
-**Q: What is the output of the following code snippet:**
+#### **Execution Trace:**
 
-```py
+| Iteration | Condition (`counter < 5`) | Action (`counter += 1`) | New `counter` Value |
+| :--- | :--- | :--- | :--- |
+| **Start** | — | Variable initialized | `1` |
+| **1** | `1 < 5` (**True**) | `1 + 1` | `2` |
+| **2** | `2 < 5` (**True**) | `2 + 1` | `3` |
+| **3** | `3 < 5` (**True**) | `3 + 1` | `4` |
+| **4** | `4 < 5` (**True**) | `4 + 1` | `5` |
+| **5** | `5 < 5` (**False**) | **Loop Terminates** | `5` |
+
+#### **Answer:**
+```text
+5
+```
+
+---
+
+### **Q3: What is the output of the following code snippet?**
+
+```python
 counter = 67
 
-while (counter > 10):
+while counter > 10:
     counter /= 2
 
 print(counter)
 ```
-*Work: Check if `counter > 10`: 67 > 10, then 67/2  = 33.5, <br>
-Check if `counter > 10`: 33.5 > 10, then 33.5/2  = 16.75, <br>
-Check if `counter > 10`: 16.75 > 10, then 16.75/2  = 8.375 <br>
-Check if `counter > 10`: 8.375 < 10, then Stop Iterating <br>*
 
-*A: The output would be `8.375` since the 
+#### **Execution Trace:**
 
-**Q: What is the output of the following code snippet:**
+| Iteration | Condition (`counter > 10`) | Action (`counter /= 2`) | New `counter` Value |
+| :--- | :--- | :--- | :--- |
+| **Start** | — | Variable initialized | `67` |
+| **1** | `67 > 10` (**True**) | `67 / 2` | `33.5` |
+| **2** | `33.5 > 10` (**True**) | `33.5 / 2` | `16.75` |
+| **3** | `16.75 > 10` (**True**) | `16.75 / 2` | `8.375` |
+| **4** | `8.375 > 10` (**False**) | **Loop Terminates** | `8.375` |
 
-```py
+#### **Answer:**
+```text
+8.375
+```
+
+---
+
+### **Q4: What is the output of the following code snippet?**
+
+```python
 counter = 5
 
-while (counter < 100):
+while counter < 100:
     counter += 2
     counter -= 1
 
 print(counter)
 ```
 
-*Work: simplify the inside, `2-1 = 1` so `counter` increases by `1` per iteration (`counter += 1`) <br>
-`counter = 5 + 1 = 6 + 1 = 7 + 1 = 8 + ... = counter = 100`
+#### **Explanation:**
+The inner block (`counter += 2` followed by `counter -= 1`) results in a net increment of **`+1` per iteration**.
 
-*A: The output will be `100` since the `while True` loop runs continously until `counter` reachers `100` as the conditional `counter < 100` so if `counter = 100`, you stop iterating.*
+#### **Key Execution Points:**
+* **Start:** `counter = 5`
+* **Final Iteration Check:** When `counter = 99`, the condition `99 < 100` evaluates to **True**.
+* **Body Execution:** `counter` becomes `99 + 2 - 1 = 100`.
+* **Loop Exit:** Next check evaluates `100 < 100` (**False**). The loop stops.
 
-**Q: What is the output of the following code snippet:**
+#### **Answer:**
+```text
+100
+```
 
-```py
+---
+
+### **Q5: What is the output of the following code snippet?**
+
+```python
 counter = 256
 
-while (counter > 10):
-    if (counter < 50):
+while counter > 10:
+    if counter < 50:
         counter /= 2
     else:
-        counter =/ 4
+        counter /= 4
+
 print(counter)
 ```
-*Work: first check the conditions `counter > 10` and then `counter < 50`, while `counter > 10`, execute the `else` block which divides `counter` by `4`. since `256 > 50` <br> <br>
-`256 / 4 = 64 / 4 = 16 → STOP` <br> <br>
-now since `(counter < 50)`, execute the `if (counter < 50)` block which divides `counter` by `2` since `16 < 50` <br> <br>
-`16 / 2 = 8 → STOP`
-now since the `while (counter > 10)` conditional is false, stop the entire loop and print the result*
 
+#### **Execution Trace:**
+
+| Iteration | `while counter > 10` | `if counter < 50` | Action Taken | New `counter` Value |
+| :--- | :--- | :--- | :--- | :--- |
+| **Start** | — | — | Variable initialized | `256` |
+| **1** | `256 > 10` (**True**) | `256 < 50` (**False**) | `else`: `256 / 4` | `64.0` |
+| **2** | `64.0 > 10` (**True**) | `64.0 < 50` (**False**) | `else`: `64 / 4` | `16.0` |
+| **3** | `16.0 > 10` (**True**) | `16.0 < 50` (**True**) | `if`: `16 / 2` | `8.0` |
+| **4** | `8.0 > 10` (**False**) | — | **Loop Terminates** | `8.0` |
+
+#### **Answer:**
+```text
+8.0
+```
+
+---
