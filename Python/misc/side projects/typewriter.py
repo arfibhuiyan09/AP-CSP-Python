@@ -15,8 +15,8 @@ def effect(word):
     letters = list(word)
     print()
     
-    for n in range(len(word)):
-        print(letters[n], end="", flush=True) 
+    for char in range(len(word)):
+        print(letters[char], end="", flush=True) 
         time.sleep(0.075)
     return True
 
