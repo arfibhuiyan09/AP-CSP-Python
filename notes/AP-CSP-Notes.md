@@ -338,13 +338,22 @@ while (array_index < 5):
 print(grades)
 ```
 
-#### **Execution Trace:**
+#### **Error Analysis:**
 
-N/A
+| Line | Code Segment | Error Type | Explanation |
+| :--- | :--- | :--- | :--- |
+| **5** | `grades[array_index] = input(...)` | **Logic Error** | The loop is missing an `array_index += 1` statement. Since `array_index` remains `0`, the loop repeatedly overwrites `grades[0]` and never terminates. |
+| **5** | `f"Enter grade number {array_index}:"` | **Logic Error** | The displayed grade number starts at `0` rather than `1`. Using `{array_index + 1}` would display the grades as numbers 1–5. |
+| **5** | `input(...)` | **Logic Error** | `input()` returns a string. If the grades are intended to be stored as numerical values, the input should be cast to `int` or `float`. |
 
-#### **Answer:**
-```text
-1st error: This code is missing a `array_index += 1` statement; the code is just going to run `grades[array_index] = input(f"Enter grade number {array_index}:")` indefinitely --> logic error
-2nd error: The `input(f"Enter grade number {array_index}:")` is missing a `{array_index + 1}`; otherwise, it's just going to display the same number indefinitely --> logic error
-3rd error: the `input()` function only takes in strings, you must cast `int` or `float` over it to record integer or decimal numbers like `int(input(...))`
+#### **Corrected Code:**
+```py
+array_index = 0
+grades = [0, 0, 0, 0, 0]
+
+while (array_index < 5):
+    grades[array_index] = float(input(f"Enter grade number {array_index + 1}:"))
+    array_index += 1
+
+print(grades)
 ```
