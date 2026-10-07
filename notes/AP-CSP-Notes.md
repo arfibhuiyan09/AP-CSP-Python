@@ -219,3 +219,132 @@ print(counter)
 ```
 
 ---
+
+### **Q6: What is the output of the following code snippet?**
+
+```python
+counter = 1
+test_list= []
+
+while (counter < 10):
+    test_list.append(counter)
+    counter += 1
+
+print(test_list)
+```
+
+#### **Execution Trace:**
+
+| Iteration | `while counter < 10` | Action Taken | New `counter` Value |
+| :--- | :--- | :--- | :--- |
+| **Start** | — | Variable initialized | `1` |
+| **1** | `1 < 10` (**True**) | `test_list.append(1)`; `counter += 1` | `2` |
+| **2** | `2 < 10` (**True**) | `test_list.append(2)`; `counter += 1` | `3` |
+| **3** | `3 < 10` (**True**) | `test_list.append(3)`; `counter += 1` | `4` |
+| **4** | `4 < 10` (**True**) | `test_list.append(4)`; `counter += 1` | `5` |
+| **5** | `5 < 10` (**True**) | `test_list.append(5)`; `counter += 1` | `6` |
+| **6** | `6 < 10` (**True**) | `test_list.append(6)`; `counter += 1` | `7` |
+| **7** | `7 < 10` (**True**) | `test_list.append(7)`; `counter += 1` | `8` |
+| **8** | `8 < 10` (**True**) | `test_list.append(8)`; `counter += 1` | `9` |
+| **9** | `9 < 10` (**True**) | `test_list.append(9)`; `counter += 1` | `10` |
+| **10** | `10 < 10` (**False**) | **Loop Terminates** | `10` |
+
+#### **Answer:**
+```text
+[1,2,3,4,5,6,7,8,9]
+```
+
+---
+
+### **Q7: What is the output of the following code snippet?**
+
+```python
+counter = 0
+test_list = ["start"]
+
+while (counter < 10):
+    test_list.append(counter)
+    counter += 2
+
+test_list.append("end")
+print(test_list)
+```
+
+#### **Execution Trace:**
+
+
+| Iteration | `while counter < 10` | Action Taken | New `counter` Value |
+| :--- | :--- | :--- | :--- |
+| **Start** | — | Variables initialized | `0` |
+| **1** | `0 < 10` (**True**) | `test_list.append(0)`; `counter += 2` | `2` |
+| **2** | `2 < 10` (**True**) | `test_list.append(2)`; `counter += 2` | `4` |
+| **3** | `4 < 10` (**True**) | `test_list.append(4)`; `counter += 2` | `6` |
+| **4** | `6 < 10` (**True**) | `test_list.append(6)`; `counter += 2` | `8` |
+| **5** | `8 < 10` (**True**) | `test_list.append(8)`; `counter += 2` | `10` |
+| **6** | `10 < 10` (**False**) | **Loop Terminates** | `10` |
+| **After loop** | — | `test_list.append("end")` | `10` |
+
+
+#### **Answer:**
+```text
+[start,0,2,4,6,8,end]
+```
+
+---
+
+### **Q8: What is the output of the following code snippet?**
+
+```python
+counter = 0
+test_list = ["start"]
+
+while (counter < 10):
+    counter += 2
+    test_list.append(counter)
+
+test_list.append("end")
+print(test_list)
+```
+
+#### **Execution Trace:**
+
+| Iteration | `while counter < 10` | Action Taken | New `counter` Value |
+| :--- | :--- | :--- | :--- |
+| **Start** | — | Variables initialized | `0` |
+| **1** | `0 < 10` (**True**) | `counter += 2`; `test_list.append(2)` | `2` |
+| **2** | `2 < 10` (**True**) | `counter += 2`; `test_list.append(4)` | `4` |
+| **3** | `4 < 10` (**True**) | `counter += 2`; `test_list.append(6)` | `6` |
+| **4** | `6 < 10` (**True**) | `counter += 2`; `test_list.append(8)` | `8` |
+| **5** | `8 < 10` (**True**) | `counter += 2`; `test_list.append(10)` | `10` |
+| **6** | `10 < 10` (**False**) | **Loop Terminates** | `10` |
+| **After loop** | — | `test_list.append("end")` | `10` |
+
+#### **Answer:**
+```text
+[start,2,4,6,8,10,end]
+```
+
+---
+
+### **Q9: Identify all errors in the following code snippet:**
+
+```python
+array_index = 0
+grades = [0, 0, 0, 0, 0]
+
+while (array_index < 5):
+    grades[array_index] = input(f"Enter grade number {array_index}:")
+
+print(grades)
+```
+
+#### **Execution Trace:**
+
+N/A
+
+#### **Answer:**
+```text
+1st error: This code is missing a `array_index += 1` statement; the code is just going to run `grades[array_index] = input(f"Enter grade number {array_index}:")` indefinitely --> logic error
+2nd error: The `input(f"Enter grade number {array_index}:")` is missing a `{array_index + 1}`; otherwise, it's just going to display the same number indefinitely --> logic error
+3rd error: the `input()` function only takes in strings, you must cast `int` or `float` over it to record integer or decimal numbers like `int(input(...))`
+```
