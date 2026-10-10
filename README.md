@@ -8,6 +8,8 @@ Wow! its a Codespace!
 
 `AP CSP Exam: 05/14/27 8AM`
 
+'*' = optional code
+
 | Date | AP CSP Topics | Details | Created | Updated / Deleted | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **09/11/26** | **3.6 Conditionals** | Created `AP-CSP-Python` repository | `soccer_score.py`, `bank_balance.py`, `helloname.py` | — | Created `selection/`, `Fridays/` folder |
@@ -19,13 +21,14 @@ Wow! its a Codespace!
 | **09/22/26** | **4.1 The Internet** | Compared `IPv4` and `IPv6` | — | Updated `AP-CSP-Notes.md` | — |
 | **09/23/26** | **3.6 Conditionals** | Introduced Modulo (`%`) | `even_or_odd.py`, `even_odd_clean.py`, `receipt_total.py` | — | — |
 | **09/23/26** | **—** | Completed Individual Contest 2 (Quiz) | `ticket_prices.py`, `internet_layers.py`, `letter_grades.py` | Updated `AP-CSP-Notes.md`; Deleted `receipt_total.py` | — |
-| **09/26/26** | **—** | Experimented with `match` and `raise` | `match.py`, `raise.py` | — | Created `misc/` folder |
+| **09/26/26** | **—** | Experimented with `match` and `raise` | `match.py*`, `raise.py*` | — | Created `misc/` folder |
 | **09/28/26** | **3.8 Iteration** | Introduced `while` loops | `scenario1.py`, `scenario2.py` `random_riddles.py` | — | Created `loops/` folder |
 | **09/29/26** | **3.7 Nested If-Else Statements** | `scenario2_cont.py` | `scenario2_cont.py` | Deleted `selection/`, `loops/` | Revamped organisation by seperating coding topics per topic |
 | **09/30/26** | **3.10 Lists** | Intro to `lists` lecture | `scenario2_cont_list.py` | Updated `AP-CSP-Notes.md` | Created `3.10 Lists/` folder |
-| **10/01/26** | **—** | Rework on `scenario2_cont_list.py` | `ansi.py` | Updated `scenario2_cont_list.py` | — |
+| **10/01/26** | **—** | Rework on `scenario2_cont_list.py` | `ansi.py*` | Updated `scenario2_cont_list.py` | — |
 | **10/02/26** | **—** | Minor QoL updates for `scenario2_cont_list.py` | — | Updated `scenario2_cont_list.py` | — |
-| **10/04/26** | **—** | Added docstrings to `scenario2_cont_list.py` | `rand_num.py`  | Updated `scenario2_cont_list.py` | Created `side projects/` folder |
-| **10/05/26** | **—** | A singular bug fix in `rand_num.py`, and experimeted with `print()` parameters such as `print(x,y,z)`  | `typewriter.py` | Updated `rand_num.py` | — |
+| **10/04/26** | **—** | Added docstrings to `scenario2_cont_list.py` | `rand_num.py*`  | Updated `scenario2_cont_list.py` | Created `side projects/` folder |
+| **10/05/26** | **—** | A singular bug fix in `rand_num.py`, and experimeted with `print()` parameters such as `print(x,y,z)`  | `typewriter.py*` | Updated `rand_num.py` | — |
 | **10/06/26** | **3.8 Iteration** | Error Analysis and Code Tracing for several `while True` loops | — | Updated `AP-CSP-Notes.md` | — |
 | **10/07/26** | **3.8 Iteration, 3.10 Lists** | More Code Tracing and Error Analysis `while True` loops integrated with `lists` | — | Updated `AP-CSP-Notes.md` | — |
+| **10/10/26*** | **3.11 Binary Search, 3.17 Algorithmic Efficiency** | experimented with algorithms like binary, bogo, and linear search to `rand_num.py` | — | Updated `rand_num.py` | — |
