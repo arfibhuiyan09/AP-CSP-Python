@@ -32,3 +32,4 @@ Wow! its a Codespace!
 | **10/06/26** | **3.8 Iteration** | Error Analysis and Code Tracing for several `while True` loops | — | Updated `AP-CSP-Notes.md` | — |
 | **10/07/26** | **3.8 Iteration, 3.10 Lists** | More Code Tracing and Error Analysis `while True` loops integrated with `lists` | — | Updated `AP-CSP-Notes.md` | — |
 | **10/10/26*** | **3.11 Binary Search, 3.17 Algorithmic Efficiency** | experimented with algorithms like binary, bogo, and linear search to `rand_num.py` | — | Updated `rand_num.py` | — |
+| **10/13/26*** | **3.5 Boolean Expression** | `not`, `and`, `or` lecture | — | Updated `AP-CSP-Notes.md` | — |
