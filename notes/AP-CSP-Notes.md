@@ -9,6 +9,7 @@
 - [Arrays (Lists)](#arrays-lists)
 - [While True Loops](#while-true-loops)
 - [Booleans & Truth Tables](#booleans--truth-tables)
+    - [example code demo 1: `and`](#boolean-practice)
 
 ---
 
@@ -54,8 +55,9 @@
 
 ___
 
+## IP Addresses
+
 #### (09/22/26)
-### IP Addresses
 
 `IPv4` - a **32bit** identifier associated with each host or router interface
 
@@ -69,9 +71,10 @@ ___
 
 ___
 
+## Arrays (lists)
+
 #### (09/30/26)
 ##### 3.10
-### Arrays (lists)
 
 a `list` can store multiple datatypes at once
 
@@ -83,11 +86,11 @@ print(grades_array[2]) # --> output: 42.0
 print(grades_array[1]) # --> output: test
 ```
 
-___
+
+## `while True:` loops:
 
 #### (10/06/26)
 ##### 3.8
-#### `while True:` loops:
 
 ### **Q1: Identify all errors in the following code snippet:**
 
@@ -372,9 +375,12 @@ print(grades)
 
 ___
 
+## Booleans & Truth Tables
+
+#### `boolean` → T/F statements
+
 #### (10/06/26)
 ##### 3.5
-#### `boolean` → T/F statements
 
 ##### `not` → negation/inversion
 ```py
@@ -451,3 +457,76 @@ while True:
 | True | False | False | True | True | 
 | False | True | True | False | True |
 
+---
+### example code demo 1: `and`
+
+```py
+"""
+A(6,7)
+B(4,2)
+C(100,1)
+D(1,100)
+"""
+
+x = int(input("put a value for x"))
+y = int(input("put a value for y"))
+
+if x < 6 and y >= 7:
+    print("Success!)
+else:
+    print("failure :(")
+
+"""
+output:
+
+A(6,7):
+    Since x = 6, and y >= 7, only one of those are True. Since it is bounded by a `and` operator, the entire would evaluate to False; as a result, trigging the else block
+
+B(4,2):
+    since x < 6, and y < 7, only one of those are True. Since it is bounded by a `and` operator, the entire would evaluate to False; as a result, trigging the else block
+
+C(100,1):
+    since x > 6, and y < 7, both of these are False. Since it is bounded by a `and` operator, the entire would evaluate to False; as a result, trigging the else block
+
+D(1,100):
+    since x < 6, and y >= 7, both of these are True. Since it is bounded by a `and` operator, the entire would evaluate to True; as a result, trigging the if block
+
+"""
+```
+
+---
+### example code demo 2: `or`
+
+```py
+"""
+A(6,7)
+B(4,2)
+C(100,1)
+D(1,100)
+"""
+
+x = int(input("put a value for x"))
+y = int(input("put a value for y"))
+
+if x < 6 or y >= 7:
+    print("Success!)
+else:
+    print("failure :(")
+
+"""
+output:
+
+A(6,7):
+    Since x = 6, and y >= 7, only one of those are True. Since it is bounded by a `or` operator, only one of these needs to be True to make the entire expression True. As a result, it is True and triggers the if block.
+
+B(4,2):
+    since x < 6, and y < 7, only one of those are True. Since it is bounded by a `or` operator, only one of these needs to be True to make the entire expression True. As a result, it is True and triggers the if block.
+
+C(100,1):
+    since x > 6, and y < 7, both of these are False. Since it is bounded by a `or` operator, only one of these needs to be True to make the entire expression True. As a result, it is False and triggers the else block.
+
+D(1,100):
+    since x < 6, and y >= 7, both of these are True. Since it is bounded by a `or` operator, only one of these needs to be True to make the entire expression True. As a result, it is True and triggers the if block.
+
+"""
+```
