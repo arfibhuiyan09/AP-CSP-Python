@@ -1,5 +1,17 @@
 ` to save codebase open source control (ctrl + shift + g) and press commit (ctrl + enter) `
 
+## Table of Contents
+- [Selection](#selection)
+- [The Internet](#the-internet)
+  - [Internet Protocol (IP) Layering](#internet-protocol-ip-layering)
+  - [Transport Protocols](#transport-protocols)
+  - [IP Addresses](#ip-addresses)
+- [Arrays (Lists)](#arrays-lists)
+- [While True Loops](#while-true-loops)
+- [Booleans & Truth Tables](#booleans--truth-tables)
+
+---
+
 
 ## Selection
 
@@ -363,6 +375,7 @@ ___
 #### (10/06/26)
 ##### 3.5
 #### `boolean` → T/F statements
+
 ##### `not` → negation/inversion
 ```py
 A = 4+2
@@ -408,12 +421,33 @@ while True:
 # output: if A **or** B is greater than 10, 100, or 1000, it will print its respective if else block.
 ```
 
-#### Truth Table
-
+## Truth Table(s)
+#### not A and B
 | A | B | (`not` A) `and` B |
 | :--- | :--- | :--- |
 | True | True | False |
 | False | False | False |
 | True | False | False |
 | False | True | True |
+
+---
+###### (10/06/26)
+
+#### not (A and B)
+| A | B | `not` (A `and` B) |
+| :--- | :--- | :--- |
+| True | True | False |
+| False | False | True |
+| True | False | True |
+| False | True | True |
+
+---
+
+#### (not A) or (not B)
+| A | B | (`not` A) | (`not` B) | (`not` A) `or` (`not` B) |
+| :--- | :--- | :--- |  :--- | :--- | 
+| True | True | False | False | False |
+| False | False | True | True | True |
+| True | False | False | True | True | 
+| False | True | True | False | True |
 
