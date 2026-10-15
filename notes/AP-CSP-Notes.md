@@ -9,7 +9,7 @@
 - [Arrays (Lists)](#arrays-lists)
 - [While True Loops](#while-true-loops)
 - [Booleans & Truth Tables](#booleans--truth-tables)
-    - [truth table code](#boolean-practice)
+    - [truth table code](#truth-table-code)
 
 ---
 
