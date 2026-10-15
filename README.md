@@ -21,7 +21,7 @@ Wow! its a Codespace!
 | **09/22/26** | **4.1 The Internet** | Compared `IPv4` and `IPv6` | — | Updated `AP-CSP-Notes.md` | — |
 | **09/23/26** | **3.6 Conditionals** | Introduced Modulo (`%`) | `even_or_odd.py`, `even_odd_clean.py`, `receipt_total.py` | — | — |
 | **09/23/26** | **—** | Completed Individual Contest 2 (Quiz) | `ticket_prices.py`, `internet_layers.py`, `letter_grades.py` | Updated `AP-CSP-Notes.md`; Deleted `receipt_total.py` | — |
-| **09/26/26** | **—** | Experimented with `match` and `raise` | `match.py*`, `raise.py*` | — | Created `misc/` folder |
+| **09/26/26*** | **—** | Experimented with `match` and `raise` | `match.py*`, `raise.py*` | — | Created `misc/` folder |
 | **09/28/26** | **3.8 Iteration** | Introduced `while` loops | `scenario1.py`, `scenario2.py` `random_riddles.py` | — | Created `loops/` folder |
 | **09/29/26** | **3.7 Nested If-Else Statements** | `scenario2_cont.py` | `scenario2_cont.py` | Deleted `selection/`, `loops/` | Revamped organisation by seperating coding topics per topic |
 | **09/30/26** | **3.10 Lists** | Intro to `lists` lecture | `scenario2_cont_list.py` | Updated `AP-CSP-Notes.md` | Created `3.10 Lists/` folder |
@@ -32,5 +32,6 @@ Wow! its a Codespace!
 | **10/06/26** | **3.8 Iteration** | Error Analysis and Code Tracing for several `while True` loops | — | Updated `AP-CSP-Notes.md` | — |
 | **10/07/26** | **3.8 Iteration, 3.10 Lists** | More Code Tracing and Error Analysis `while True` loops integrated with `lists` | — | Updated `AP-CSP-Notes.md` | — |
 | **10/10/26*** | **3.11 Binary Search, 3.17 Algorithmic Efficiency** | experimented with algorithms like binary, bogo, and linear search to `rand_num.py` | — | Updated `rand_num.py` | — |
-| **10/13/26*** | **3.5 Boolean Expression** | `not`, `and`, `or` lecture | — | Updated `AP-CSP-Notes.md` | — |
-| **10/14/26*** | **3.5 Boolean Expression** | more truth table practice | — | Updated `AP-CSP-Notes.md` | — |
+| **10/13/26** | **3.5 Boolean Expression** | `not`, `and`, `or` lecture | — | Updated `AP-CSP-Notes.md` | — |
+| **10/14/26** | **3.5 Boolean Expression** | more truth table practice | — | Updated `AP-CSP-Notes.md` | — |
+| **10/15/26*** | **—** | added a directory in `AP-CSP-Notes.md` | — | Updated `AP-CSP-Notes.md` | — |

@@ -9,7 +9,7 @@
 - [Arrays (Lists)](#arrays-lists)
 - [While True Loops](#while-true-loops)
 - [Booleans & Truth Tables](#booleans--truth-tables)
-    - [example code demo 1: `and`](#boolean-practice)
+    - [truth table code](#boolean-practice)
 
 ---
 
@@ -458,7 +458,9 @@ while True:
 | False | True | True | False | True |
 
 ---
-### example code demo 1: `and`
+### truth table code
+
+### `and`
 
 ```py
 """
@@ -495,7 +497,7 @@ D(1,100):
 ```
 
 ---
-### example code demo 2: `or`
+### `or`
 
 ```py
 """
