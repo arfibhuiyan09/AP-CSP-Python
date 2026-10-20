@@ -8,8 +8,6 @@
   - [IP Addresses](#ip-addresses)
 - [Arrays (Lists)](#arrays-lists)
 - [While True Loops](#while-true-loops)
-- [Booleans & Truth Tables](#booleans--truth-tables)
-    - [truth table code](#truth-table-code)
 
 ---
 

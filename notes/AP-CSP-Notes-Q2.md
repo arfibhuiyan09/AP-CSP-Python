@@ -106,7 +106,7 @@ x = int(input("put a value for x"))
 y = int(input("put a value for y"))
 
 if x < 6 and y >= 7:
-    print("Success!)
+    print("Success!")
 else:
     print("failure :(")
 
@@ -143,7 +143,7 @@ x = int(input("put a value for x"))
 y = int(input("put a value for y"))
 
 if x < 6 or y >= 7:
-    print("Success!)
+    print("Success!")
 else:
     print("failure :(")
 
@@ -165,4 +165,4 @@ D(1,100):
 """
 ```
 
-`last updated: 10/16/26`
+`last updated: 10/20/26 10:02AM`
