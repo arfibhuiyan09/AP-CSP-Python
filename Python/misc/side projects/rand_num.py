@@ -102,18 +102,15 @@ def binary_search_algorithm(num_min, num_max, random_number, count):
         count += 1
 
         bot_guess = num_min + ((num_max - num_min) // 2)
-        print(f"Bot guesses: {bot_guess}")
 
         if bot_guess == random_number: 
             print(f"{BOLD}Congratulations!{RESET} the bot {GREEN}{BOLD}WON!{RESET} They got {random_number} in {count} attempts.\n")
             return True
 
         elif bot_guess > random_number:
-            print(f"The random number is {BOLD}lower{RESET} than {bot_guess}") 
             num_max = bot_guess - 1
 
         else:
-            print(f"The random number is {BOLD}higher{RESET} than {bot_guess}") 
             num_min = bot_guess + 1
 
         
@@ -176,7 +173,6 @@ def linear_search_algorithm(num_min, random_number, count):
             return True
 
         else:
-            print(f"The random number is {BOLD}higher{RESET} than {bot_guess}") 
             bot_guess += 1
 
 # -------------- MAIN PROGRAM LOGIC --------------

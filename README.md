@@ -37,3 +37,4 @@ Wow! its a Codespace!
 | **10/15/26*** | **—** | Added a directory in `AP-CSP-Notes.md` | — | Updated `AP-CSP-Notes.md` | — |
 | **10/16/26*** | **—** | Split `AP-CSP-Notes.md` into 4 seperate files quarterly for more readibility | — | Renamed `AP-CSP-Notes.md` → `AP-CSP-Notes-Q1.md`, Created `AP-CSP-Notes-Q2.md` | — |
 | **10/20/26*** | **—** | fixed bugged codeblocks in `AP-CSP-Notes.md` | — | Updated `AP-CSP-Notes.md` | — |
+| **10/21/26*** | **—** | increased efficiency in the binary and linear search algortihm by reducing the print statements | — | Updated `rand_num.py` | — |
