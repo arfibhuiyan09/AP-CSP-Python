@@ -165,4 +165,51 @@ D(1,100):
 """
 ```
 
-`last updated: 10/20/26 10:02AM`
+## more if-then-else practice
+#### 10/27/26
+
+### code 1:
+
+```py
+cheese = 2
+peanutButter = 7
+
+cheese = cheese + 3 # makes cheese = 5
+peanutButter -= 2 # makes peanutButter = 5
+
+if cheese > peanutButter: # 5>5 is false
+    print(cheese % 2)
+else:
+    print(peanutButter % 3) # 5 mod 3 = 2
+
+cheese = 1/(cheese - peanutButter) # nukes the entire code resulting in a runtime error in a zerodivision error
+
+print(peanutButter) # supposed to print 5 but doesnt due to the error
+
+# this code segment prints "2"
+```
+
+### code 2:
+
+```py
+#fill in the blank
+
+if ___________:
+    print("your integer is divisible by 2")
+
+____ _________: 
+    print("your integer is divisible by 3)
+
+# ---------------------------------------------------------
+
+# filled in code:
+
+if number % 2 == 0: # if a number n when divided by 2 (denominator) is equal to 0, it is divisible by 2. eg 14 % 2 = 0 is 14/2 = 0 remainder. This makes 14 divisible by 0
+    print("your integer is divisible by 2")
+
+elif number % 3 == 0: # if a number n when divided by 3 (denominator) is equal to 0, it is divisible by 3. eg 33 % 3 = 0 is 33/3 = 0 remainder. This makes 33 divisible by 3
+    print("your integer is divisible by 3")
+
+```
+
+`last updated: 10/16/26`

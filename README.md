@@ -36,6 +36,7 @@ Wow! its a Codespace!
 | **10/14/26** | **3.5 Boolean Expression** | More truth table practice | — | Updated `AP-CSP-Notes.md` | — |
 | **10/15/26*** | **—** | Added a directory in `AP-CSP-Notes.md` | — | Updated `AP-CSP-Notes.md` | — |
 | **10/16/26*** | **—** | Split `AP-CSP-Notes.md` into 4 seperate files quarterly for more readibility | — | Renamed `AP-CSP-Notes.md` → `AP-CSP-Notes-Q1.md`, Created `AP-CSP-Notes-Q2.md` | — |
-| **10/20/26*** | **—** | Fixed bugged codeblocks in `AP-CSP-Notes.md` | — | Updated `AP-CSP-Notes.md` | — |
+| **10/20/26*** | **—** | Fixed bugged codeblocks in `AP-CSP-Notes-Q1.md` | — | Updated `AP-CSP-Notes-Q1.md` | — |
 | **10/21/26*** | **—** | Increased efficiency in the binary and linear search algortihm by reducing the print statements | — | Updated `rand_num.py` | — |
 | **10/26/26*** | **—** | Added a `.gitignore` file to remove unecessary clutter in the repo | — | Created `.gitignore` | — |
+| **10/27/26** | **—** | More If-Then-Else practice | — | Updated `AP-CSP-Notes-Q2.md` | — |
