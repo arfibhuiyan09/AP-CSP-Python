@@ -1,8 +1,10 @@
 ` to save codebase open source control (ctrl + shift + g) and press commit (ctrl + enter) `
 
 ## Table of Contents
-- [Booleans & Truth Tables](#booleans--truth-tables)
+- [Booleans & Truth Tables (3.5)](#booleans--truth-tables)
     - [truth table code](#truth-table-code)
+- [If-Then-Else Practice (3.6)](#more-if-then-else-practice)
+- [Nested If-Then-Else Practice (3.7)](#more-nested-if-then-else-practice)
 
 ---
 
@@ -60,6 +62,7 @@ while True:
 ```
 
 ## Truth Table(s)
+###### AP CSP 3.5
 #### not A and B
 | A | B | (`not` A) `and` B |
 | :--- | :--- | :--- |
@@ -167,6 +170,7 @@ D(1,100):
 
 ## more if-then-else practice
 #### 10/27/26
+###### AP CSP 3.6
 
 ### code 1:
 
@@ -198,7 +202,7 @@ if ___________:
     print("your integer is divisible by 2")
 
 ____ _________: 
-    print("your integer is divisible by 3)
+    print("your integer is divisible by 3")
 
 # ---------------------------------------------------------
 
@@ -212,4 +216,68 @@ elif number % 3 == 0: # if a number n when divided by 3 (denominator) is equal t
 
 ```
 
-`last updated: 10/16/26`
+## more nested if else practice
+#### 10/28/26
+###### AP CSP 3.7
+
+### code 1:
+
+```py
+# Question: what are all of the (x,y) pairs that give each status message?
+
+x = int(input("X: "))
+y = int(input("Y: "))
+status = "N/A"
+
+if x > 10:
+    if y < 15:
+        if x == (y + 4):
+            status = "Approved"
+        else:
+            status = "Review"
+    else:
+        status = "Rejected"
+else:
+    if x > 5:
+        status = "Hold"
+    else:
+        status = "Denied"
+
+print(status)
+
+# Approved: (18,14)
+# Review: (11,6)
+# Rejected: (55,55)
+# Hold: (7,10)
+# Denied: (2,200)
+```
+### code 2:
+
+```py
+"""
+A smart home unlocks the door if either a recognized face or a valid code is detected (provided the alarm is not active)
+
+If the alarm is active, and the face is not recognized, access is denied
+
+Otherwise the request is on hold
+"""
+
+face_recognized = input("Face recognized:  ")
+valid_code = input("Valid Code:  ")
+alarm_active = input("Alarm Active:  ")
+
+status = ""
+
+if (face_recognized or active_code) and not alarm_active:
+    status = "Access Granted!"
+
+elif not face_recognized and alarm_active:
+    status = "Access Denied..."
+
+else:
+    print("Hold")
+
+print(status)
+```
+
+`last updated: 10/28/26`
