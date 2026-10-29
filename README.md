@@ -40,3 +40,5 @@ Wow! its a Codespace!
 | **10/21/26*** | **—** | Increased efficiency in the binary and linear search algortihm by reducing the print statements | — | Updated `rand_num.py` | — |
 | **10/26/26*** | **—** | Added a `.gitignore` file to remove unecessary clutter in the repo | — | Created `.gitignore` | — |
 | **10/27/26** | **—** | More If-Then-Else practice | — | Updated `AP-CSP-Notes-Q2.md` | — |
+| **10/28/26** | **—** | More Nested If-Then-Else practice | — | Updated `AP-CSP-Notes-Q2.md` | — |
+| **10/29/26** | **—** | A continuation of 10/28 with Nested If-Then-Else practice | — | Updated `AP-CSP-Notes-Q2.md` | — |

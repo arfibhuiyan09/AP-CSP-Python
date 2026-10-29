@@ -280,4 +280,38 @@ else:
 print(status)
 ```
 
+---
+##### 10/29/26
+
+### code 3:
+
+```py
+"""
+A player can join a match if they have a premeium account or enough game credits, provided the server is available.
+
+If the server is unavailable, the player can not join
+
+Otherwise, if the player has a premeium account or enough credits, the player joins
+
+Otherwise, the player is placed on hold.
+"""
+
+p_acc = input("Face recognized:  ")
+credits = input("Valid Code:  ")
+server_avail = input("Alarm Active:  ")
+
+status = "Hold"
+
+if not server_avail:
+    status = "Access Denied..."
+
+elif p_acc or credits:
+    status = "Access Granted!"
+
+else:
+    status
+
+print(status)
+```
+
 `last updated: 10/28/26`
