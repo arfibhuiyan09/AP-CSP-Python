@@ -4,7 +4,7 @@
 - [Booleans & Truth Tables (3.5)](#booleans--truth-tables)
     - [truth table code](#truth-table-code)
 - [If-Then-Else Practice (3.6)](#more-if-then-else-practice)
-- [Nested If-Then-Else Practice (3.7)](#more-nested-if-then-else-practice)
+- [Nested If-Then-Else Practice (3.7)](#more-nested-if-else-practice)
 
 ---
 
@@ -311,4 +311,4 @@ elif p_acc or credits:
 print(status)
 ```
 
-`last updated: 10/28/26`
+`last updated: 10/29/26`
