@@ -262,20 +262,20 @@ If the alarm is active, and the face is not recognized, access is denied
 Otherwise the request is on hold
 """
 
-face_recognized = input("Face recognized:  ")
-valid_code = input("Valid Code:  ")
-alarm_active = input("Alarm Active:  ")
+face_recognized = input("Face recognized (yes/no): ").strip().lower() == "yes"
+valid_code = input("Valid Code (yes/no): ").strip().lower() == "yes"
+alarm_active = input("Alarm Active (yes/no): ").strip().lower() == "yes"
 
 status = ""
 
-if (face_recognized or active_code) and not alarm_active:
+if (face_recognized or valid_code) and not alarm_active:
     status = "Access Granted!"
 
 elif not face_recognized and alarm_active:
     status = "Access Denied..."
 
 else:
-    print("Hold")
+    status = "Hold"
 
 print(status)
 ```
@@ -296,9 +296,9 @@ Otherwise, if the player has a premeium account or enough credits, the player jo
 Otherwise, the player is placed on hold.
 """
 
-p_acc = input("Face recognized:  ")
-credits = input("Valid Code:  ")
-server_avail = input("Alarm Active:  ")
+p_acc = input("Premium account? (yes/no): ").strip().lower() == "yes"
+credits = input("Enough credits? (yes/no): ").strip().lower() == "yes"
+server_avail = input("Server available? (yes/no): ").strip().lower() == "yes"
 
 status = "Hold"
 
@@ -307,9 +307,6 @@ if not server_avail:
 
 elif p_acc or credits:
     status = "Access Granted!"
-
-else:
-    status
 
 print(status)
 ```
