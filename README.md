@@ -42,3 +42,4 @@ Wow! its a Codespace!
 | **10/27/26** | **—** | More If-Then-Else practice | — | Updated `AP-CSP-Notes-Q2.md` | — |
 | **10/28/26** | **—** | More Nested If-Then-Else practice | — | Updated `AP-CSP-Notes-Q2.md` | — |
 | **10/29/26** | **—** | A continuation of 10/28 with Nested If-Then-Else practice, did some practice with them in `3.5 Boolean Logic` | — | Added `3.5 Boolean Logic/` Updated `AP-CSP-Notes-Q2.md` | — |
+| **10/29/26** | **—** | Completed Individual Contest 3 (Quiz) | — | Added `3.5 Boolean Logic/` Updated `AP-CSP-Notes-Q2.md` | — |
