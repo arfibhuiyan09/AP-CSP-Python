@@ -20,7 +20,7 @@ Wow! its a Codespace!
 | **09/21/26** | **4.1 The Internet** | Learned Internet protocol layering | — | Updated `AP-CSP-Notes.md` | — |
 | **09/22/26** | **4.1 The Internet** | Compared `IPv4` and `IPv6` | — | Updated `AP-CSP-Notes.md` | — |
 | **09/23/26** | **3.6 Conditionals** | Introduced Modulo (`%`) | `even_or_odd.py`, `even_odd_clean.py`, `receipt_total.py` | — | — |
-| **09/23/26** | **—** | Completed Individual Contest 2 (Quiz) | `ticket_prices.py`, `internet_layers.py`, `letter_grades.py` | Updated `AP-CSP-Notes.md`; Deleted `receipt_total.py` | — |
+| **09/24/26** | **—** | Completed Individual Contest 2 (Quiz) | `ticket_prices.py`, `internet_layers.py`, `letter_grades.py` | Updated `AP-CSP-Notes.md`; Deleted `receipt_total.py` | — |
 | **09/26/26*** | **—** | Experimented with `match` and `raise` | `match.py*`, `raise.py*` | — | Created `misc/` folder |
 | **09/28/26** | **3.8 Iteration** | Introduced `while` loops | `scenario1.py`, `scenario2.py` `random_riddles.py` | — | Created `loops/` folder |
 | **09/29/26** | **3.7 Nested If-Else Statements** | Created first draft of `scenario2_cont.py` which is a expanded version of `scenario2.py` | `scenario2_cont.py` | Deleted `selection/`, `loops/` | Revamped organisation by seperating coding topics per topic |
@@ -42,6 +42,10 @@ Wow! its a Codespace!
 | **10/27/26** | **—** | More If-Then-Else practice | — | Updated `AP-CSP-Notes-Q2.md` | — |
 | **10/28/26** | **—** | More Nested If-Then-Else practice | — | Updated `AP-CSP-Notes-Q2.md` | — |
 | **10/29/26** | **—** | A continuation of 10/28 with Nested If-Then-Else practice, did some practice with them in `3.5 Boolean Logic` | — | Added `3.5 Boolean Logic/` Updated `AP-CSP-Notes-Q2.md` | — |
+<<<<<<< HEAD
 | **10/29/26** | **—** | Completed Individual Contest 3 (Quiz) | — | Added `3.5 Boolean Logic/` Added `10-30-26/` Updated `AP-CSP-Notes-Q2.md` | — |
 | **11/04/26** | **—** | Completed Individual Contest 3 (part 2) | — | `Updated 10-30-26/` Added `home_security.py`, `movie_ticket.py`, and `waterpark.py` | — |
 | **11/05/26** | **—** | Ethical Uses of AI Activities | — | Added `Ethical-Uses-of-AI.md` | — |
+=======
+| **10/30/26** | **—** | Completed Individual Contest 3 (Quiz) | — | Added `3.5 Boolean Logic/` Updated `AP-CSP-Notes-Q2.md` | — |
+>>>>>>> e76fa1ac121d6bf0db8ac06807d41850313b85f3
