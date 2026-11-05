@@ -42,4 +42,6 @@ Wow! its a Codespace!
 | **10/27/26** | **—** | More If-Then-Else practice | — | Updated `AP-CSP-Notes-Q2.md` | — |
 | **10/28/26** | **—** | More Nested If-Then-Else practice | — | Updated `AP-CSP-Notes-Q2.md` | — |
 | **10/29/26** | **—** | A continuation of 10/28 with Nested If-Then-Else practice, did some practice with them in `3.5 Boolean Logic` | — | Added `3.5 Boolean Logic/` Updated `AP-CSP-Notes-Q2.md` | — |
-| **10/29/26** | **—** | Completed Individual Contest 3 (Quiz) | — | Added `3.5 Boolean Logic/` Updated `AP-CSP-Notes-Q2.md` | — |
+| **10/29/26** | **—** | Completed Individual Contest 3 (Quiz) | — | Added `3.5 Boolean Logic/` Added `10-30-26/` Updated `AP-CSP-Notes-Q2.md` | — |
+| **11/04/26** | **—** | Completed Individual Contest 3 (part 2) | — | `Updated 10-30-26/` Added `home_security.py`, `movie_ticket.py`, and `waterpark.py` | — |
+| **11/05/26** | **—** | Ethical Uses of AI Activities | — | Added `Ethical-Uses-of-AI.md` | — |
