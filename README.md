@@ -44,5 +44,6 @@ Wow! its a Codespace!
 | **10/28/26** | **3.7 Nested If-Else Statements** | More Nested If-Then-Else practice | — |
 | **10/29/26** | **—** | A continuation of 10/28 with Nested If-Then-Else practice, did some practice with them in `3.5 Boolean Logic` | — |
 | **11/04/26** | **3.5 Boolean Expression**, **3.7 Nested If-Else Statements** | Completed Individual Contest 3 (part 2) | — |
-| **11/05/26** | **—** | Ethical Uses of AI Activities | — |
+| **11/05/26** | **5.1 Beneficial and Harmful Effects** | Ethical Uses of AI Activities | — |
 | **11/06/26*** | **—** | Fixed VS Code run-time bugs including folders having spaces in it and refactored the README.md table to have a dedicated changelog in `changelog.md` | — |
+| **11/09/26** | **5.1 Beneficial and Harmful Effects** | Sub Work; Ethical Uses of AI Activities full packet | — |
