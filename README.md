@@ -47,3 +47,4 @@ Wow! its a Codespace!
 | **11/05/26** | **5.1 Beneficial and Harmful Effects** | Ethical Uses of AI Activities | — |
 | **11/06/26*** | **—** | Fixed VS Code run-time bugs including folders having spaces in it and refactored the README.md table to have a dedicated changelog in `changelog.md` | — |
 | **11/09/26** | **5.1 Beneficial and Harmful Effects** | Sub Work; Ethical Uses of AI Activities full packet | — |
+| **11/10/26** | **3.8 Iteration** | Review of `while` loops | — |

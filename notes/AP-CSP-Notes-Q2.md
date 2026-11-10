@@ -5,6 +5,7 @@
     - [truth table code](#truth-table-code)
 - [If-Then-Else Practice (3.6)](#more-if-then-else-practice)
 - [Nested If-Then-Else Practice (3.7)](#more-nested-if-else-practice)
+- [While Loop Recap (3.8)](#while-loop-recap)
 
 ---
 
@@ -311,4 +312,64 @@ elif p_acc or credits:
 print(status)
 ```
 
-`last updated: 10/29/26`
+## while loop recap
+##### 11/10/26
+
+### Recap:
+`while` → repeats code when a certain conditional is `True`
+
+<hr>
+
+### EXAMPLE OF WHILE LOOP BEING USED FOR INPUT VALIDATION
+
+```py
+
+def funfactsfunc(month):
+    print(f"oka so you picked {month}:")
+    while True:
+        choice2 = input("oka so would you like to see your fun fact? (Y/N) ").lower().strip()
+        if choice2 == "y":
+            ...
+
+        elif choice2 == "n":
+            print("oh oka")
+            break
+        else:
+            print(f"--> Error: '{choice2}' is an invalid prompt answer!")
+
+```
+### EXAMPLE OF WHILE LOOP BEING USED FOR RUNNING UNTIL FALSE
+
+```py
+counter = 0
+# EXAMPLE OF WHILE LOOP BEING USED FOR RUNNING UNTIL FALSE
+
+while counter < 30:
+    if counter < 10:
+        counter += 5
+    else:
+        counter *= 3
+
+print(counter)
+```
+### FIND ALL THE ERRORS IN THE CODE:
+
+```py 
+grade_arr = [7,0,38,100,105]
+counter = 0
+
+while counter <= 5:
+    grade_arr[counter] = 99
+
+print("grade_arr") # expected output --> [99, 99, 99, 99, 99]
+
+"""
+err_1: runtime error: this array has 4 elements, not five
+    - TROUBLESHOOT: make "<= 5" into " < 5" or if you're fancy do " < len(grade_arr)"
+err_2: logic error: counter does not increment by one
+    - TROUBLESHOOT: just add a "counter += 1" after the "grade_arr[counter] = 99"
+err_3: logic error: it prints "grade_arr" not the values of grade_arr
+    - TROUBLESHOOT: just remove the quotation marks
+"""
+```
+`last updated: 11/10/26`

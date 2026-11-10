@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. This project adheres to a standard chronological logging format.
 ##### (for AP CSP tracking, refer to the README.md file)
 
+## [2026-11-09]
+### Changed
+- Updated `AP-CSP-Notes-Q2.md` to include review of `while` loops
+
+## [2026-11-09]
+### Added
+- `Ethical-Uses-of-AI-sub-work.md` sub work; did all of the scenarops plus PSQs
+
 ## [2026-11-06]
 ### Added
 - `changelog.md` added to isolate changes in the `ap-csp-python` repo to a different file for more readability.
