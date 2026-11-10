@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file. This project adheres to a standard chronological logging format.
 ##### (for AP CSP tracking, refer to the README.md file)
 
-## [2026-11-09]
+## [2026-11-10]
 ### Changed
 - Updated `AP-CSP-Notes-Q2.md` to include review of `while` loops
 
