@@ -3,13 +3,21 @@
 All notable changes to this project will be documented in this file. This project adheres to a standard chronological logging format.
 ##### (for AP CSP tracking, refer to the README.md file)
 
-## [2026-11-09]
+## [2026-11-13]
 ### Changed
-- Updated `AP-CSP-Notes-Q2.md` to include review of `while` loops
+- Refactored some of the responses in `notes/Worksheets/Ethical-Uses-of-AI.md`
+
+## [2026-11-10]
+### Changed
+- Updated `notes/AP-CSP-Notes-Q2.md` to include review of `while` loops
+
+## [2026-11-10]
+### Changed
+- Updated `notes/AP-CSP-Notes-Q2.md` to include review of `while` loops
 
 ## [2026-11-09]
 ### Added
-- `Ethical-Uses-of-AI-sub-work.md` sub work; did all of the scenarops plus PSQs
+- `notes/Worksheets/Ethical-Uses-of-AI-sub-work.md` sub work; did all of the scenarops plus PSQs
 
 ## [2026-11-06]
 ### Added
@@ -19,7 +27,7 @@ All notable changes to this project will be documented in this file. This projec
 
 ## [2026-11-05]
 ### Added
-- `Ethical-Uses-of-AI.md` covering classroom activities on the ethical uses of AI.
+- `notes/Worksheets/Ethical-Uses-of-AI.md` covering classroom activities on the ethical uses of AI.
 
 ## [2026-11-04]
 ### Added
