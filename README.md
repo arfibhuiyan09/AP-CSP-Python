@@ -49,3 +49,4 @@ Wow! its a Codespace!
 | **11/09/26** | **5.1 Beneficial and Harmful Effects** | Sub Work; Ethical Uses of AI Activities full packet | — |
 | **11/10/26** | **3.8 Iteration** | Review of `while` loops | — |
 | **11/13/26** | **5.1 Beneficial and Harmful Effects** | Refactoring responses | — |
+| **11/18-19/26** | **—** | Test Corrections | — |

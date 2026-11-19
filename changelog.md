@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. This project adheres to a standard chronological logging format.
 ##### (for AP CSP tracking, refer to the README.md file)
 
+## [2026-11-19]
+### Changed
+- `Q2-midterm-reflection.md` to add Q5 and Q6
+
+## [2026-11-18]
+### Added
+- `Q2-midterm-reflection.md` for test corrections for Q1-4
+
 ## [2026-11-13]
 ### Changed
 - Refactored some of the responses in `notes/Worksheets/Ethical-Uses-of-AI.md`
